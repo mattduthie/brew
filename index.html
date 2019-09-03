@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <title>Brew Supplies</title>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet"/> 
+        <link rel="stylesheet" href="brew.css"/>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+        <script src="brew.js"></script>
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <ul class="nav">
+                <li><a href="" id="hops" class="nav-hops active">Hops</a></li>
+                <li><a href="" id="yeast" class="nav-yeast">Yeast</a></li>
+                <li><a href="" id="grains" class="nav-grains">Grains & Extracts</a></li>
+                <li><a href="" id="suppliers" class="nav-supplies">Suppliers</a></li>
+            </ul>
+            <section class="hops">
+                <table class="show-hops"></table>
+            </section>
+            <section class="yeast" style="display: none;">
+                <table class="show-yeast"></table>
+            </section>
+            <section class="grains" style="display: none;">
+                <table class="show-grains"></table>
+            </section>
+            <section class="suppliers" style="display: none;">
+                <table class="show-suppliers"></table>
+            </section>
+
+            <footer>
+                <div class="toggle-footer">
+                    <span>&nbsp;</span>
+                </div>
+                <ul class="footer">
+                    <li><a href="" id="hops" class="nav-hops active">Hops</a></li>
+                    <li><a href="" id="yeast" class="nav-yeast">Yeast</a></li>
+                    <li><a href="" id="grains" class="nav-grains">Grains & Extracts</a></li>
+                    <li><a href="" id="suppliers" class="nav-supplies">Suppliers</a></li>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>
+
